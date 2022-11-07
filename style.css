@@ -1,0 +1,38 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: monospace;
+    flex-direction: column;
+}
+
+
+
+
+
+.img{
+    background-image: url("1st.jpg");
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    animation: back infinite 30s;
+}
+@keyframes back {
+    0%, 100% {
+        background-image: url("2nd.jpg");
+    }
+    20% {
+        background-image: url("3rd.jpg");
+    }
+    40% {
+        background-image: url("4th.jpg");
+    }60% {
+        background-image: url("pep.jpg");
+    }80% {
+        background-image: url("6th.jpg");
+    }
+
+}
